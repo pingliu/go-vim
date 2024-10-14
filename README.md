@@ -1,10 +1,5 @@
-Install
-~~~~~~~
-
-Install it by a one-line command:
-
-.. code:: bash
-
+# install
+```bash
     $ docker run --name golang -v /tmp/share:/tmp/share -it ubuntu  bash
     $ apt-get update && apt-get install wget git make vim-gtk exuberant-ctags -y 
     $ cd
@@ -17,6 +12,7 @@ Install it by a one-line command:
     $ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-arm64.tar.gz
     $ vim .vimrc 
     $ vim命令行模式下执行GoInstallBinaries安装go tool
+```
 
 # vim-go 常用命令
 ## 代码导航和编辑
