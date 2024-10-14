@@ -4,7 +4,6 @@
 echo 'export PATH=$PATH:/usr/local/go/bin:/root/go/bin' >> ~/.bashrc
 echo "export TERM='xterm-256color'" >> ~/.bashrc 
 echo 'export LANG=en_US.utf8' >> ~/.bashrc
-echo 'export LC_CTYPE=en_US.utf8'  >> ~/.bashrc
 echo "TZ='Asia/Shanghai'; export TZ" >> ~/.bashrc
 echo "stty stop ''" >> ~/.bashrc
 echo "stty start ''" >> ~/.bashrc
